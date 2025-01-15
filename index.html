@@ -4,6 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <title>The Fascinating World of Octopuses</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
 
 <body>
@@ -25,7 +26,6 @@
 
         <!-- Amazing Facts -->
         <h3>Amazing Facts</h3>
-        <!-- Unordered list -->
         <ul>
             <li>They have three hearts.</li>
             <li>They can change color.</li>
@@ -41,7 +41,6 @@
 
         <!-- Comparison with other Cephalopods -->
         <h5>Comparison with Other Cephalopods</h5>
-        <!-- Ordered list -->
         <ol>
             <li>Squid</li>
             <li>Cuttlefish</li>
@@ -56,59 +55,48 @@
             <a href="https://www.nationalgeographic.com/" target="_blank">National Geographic</a>
         </p>
 
-        <!-- Fun Experiment: Octopus Quiz -->
+        <!-- Quiz Section -->
         <div id="quiz-section">
-
-            <!-- Image -->
-            <img src="octopus-image.png" alt="Image of an octopus" width="100">
-
+            <img src="octopus-image.png" alt="Image of an octopus">
             <h2>Octopus Quiz</h2>
             <form action="/submit-quiz" method="POST">
-                <!-- Question 1 -->
                 <label for="question1">How many hearts does an octopus have?</label>
                 <input type="text" id="question1" name="question1"><br>
-
-                <!-- Question 2 -->
                 <label for="question2">Can octopuses change color? (Yes/No)</label>
                 <input type="text" id="question2" name="question2"><br>
-
                 <input type="submit" value="Submit Quiz">
             </form>
         </div>
 
-    </div> <!-- End of main-content -->
+        <!-- Species Table -->
+        <div id="species-table">
+            <h2>Common Octopus Species</h2>
+            <table>
+                <tr>
+                    <th>Species</th>
+                    <th>Location</th>
+                    <th>Size</th>
+                </tr>
+                <tr>
+                    <td>Common Octopus</td>
+                    <td>Worldwide</td>
+                    <td>12-36 inches</td>
+                </tr>
+                <tr>
+                    <td>Giant Pacific Octopus</td>
+                    <td>North Pacific</td>
+                    <td>Up to 16 feet</td>
+                </tr>
+            </table>
+        </div>
 
-    <!-- Table -->
-    <div id="species-table">
-        <h2>Common Octopus Species</h2>
-        <table border="1">
-            <tr>
-                <th>Species</th>
-                <th>Location</th>
-                <th>Size</th>
-            </tr>
-            <tr>
-                <td>Common Octopus</td>
-                <td>Worldwide</td>
-                <td>12-36 inches</td>
-            </tr>
-            <tr>
-                <td>Giant Pacific Octopus</td>
-                <td>North Pacific</td>
-                <td>Up to 16 feet</td>
-            </tr>
-        </table>
-    </div>
+        <!-- Footer -->
+        <div id="footer">
+            <p>
+                &copy; 2023 The Fascinating World of Octopuses. All rights reserved.
+                Fun Fact: The plural of "Octopus" can be both "Octopuses" &amp; "Octopi" &lt;3
+            </p>
+        </div>
 
-    <!-- Footer -->
-    <div id="footer">
-        <p>
-            &copy; 2023 The Fascinating World of Octopuses. All rights reserved.
-            <!-- HTML entities for special characters -->
-            Fun Fact: The plural of "Octopus" can be both "Octopuses" &amp; "Octopi" &lt;3
-        </p>
-    </div>
-
-</body>
-
+    </body>
 </html>
